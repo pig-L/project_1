@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>会员注册-途家网</title>
+		<link rel="stylesheet" href="css/register.css">
+		 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<span> < <a class="return" href='index.html'>返回首页</a> </span>
+				
+			</div>
+				
+			
+			<h1>
+				<img src="images/tujia-log.png" alt="">
+			</h1>
+				
+			
+			<div class="main">
+				<div class="main-content">
+				
+					<div class="main-left-top">
+						<a class="mt-left" href="#">普通会员注册</a>
+						<span class="fs">|</span>
+
+						<a class="mt-right" href="#">企业会员注册</a>
+					
+					</div>
+
+					<div class="main-center">
+
+						<div class="mc-1">
+							<input class="phone" type="text">
+						    <span class="phone-span">请输入手机号</span>
+						    <div class="tishi">
+						    	<span><i></i>请输入手机号</span>
+						    </div>
+						</div>	
+						
+						<div class="mc-1">
+							<!-- <div class="yanzheng"> -->
+								<input class="yzma" type="text">
+								<span class="yzma-span">请输入验证码</span>
+								<img class="yzimg" src="images/VerifyImage.jpg" alt="">
+						    <div class="tishi">
+						    	<span><i></i>请输入验证码</span>
+						    </div>
+						</div>							
+						<!-- </div> -->
+						
+
+						<div class="mc-1">
+							<!-- <div class="yanzheng"> -->
+								<input class="yzma" type="text">
+								<span class="yzma-span">请输入手机验证码</span>
+								<i class="yzbnt">获取手机验证码</i>
+							<div class="tishi-1">
+						    	<span><i></i>请输入手机验证码</span>
+						    </div>
+						</div>							
+						<!-- </div> -->
+						
+						<div class="mc-1">
+							<input class="phone" type="password">
+							<span class="mima">登录密码</span>
+							<i class="mima-span"></i>
+							<div class="tishi">
+						    	<span><i></i>请输入密码</span>
+						    </div>
+						</div>
+						
+						<div class="mc-1">
+							<input class="phone" type="text">
+							<span class="mima">邀请码（选填）</span>
+							
+							<div class="tishi-2">
+						    	<span>使用好友给您的邀请码注册</span>
+						    </div>
+						</div>
+
+					    <div class="mc-1">
+							<input class="phone" type="text">
+							<span class="mima-1">常用邮箱（可作为登录账号）</span>
+							
+						</div>
+
+
+						<div class="mc-2">
+							
+							<input id="baocun" value="" type="checkbox"  checked="checked">
+							<a class="wangji" href="#">《途家网服务协议》</a>
+	
+							
+						</div>
+
+						<div class="login">
+							<input class="login-bnt" value="登录" title="登录" type="submit">
+							
+						</div>	
+
+					</div>
+
+					
+
+				</div>
+
+				<div class="righttop">
+						<img src="images/app-download-only.png" alt="">
+					</div>
+			</div>
+					
+		</div>
+
+		<div class="footer">
+	
+		 		<div class="footer-top">
+				<a href="#">关于我们</a>
+				<span>| </span>
+				<a href="#">我是房客</a>
+				<span>| </span>
+				<a href="#">加入途家</a>
+				<span>| </span>
+				<a href="#">网站地图</a>
+				</div>
+
+			<div class="footer-bottom">
+				<p class="banjia">
+					© Copyright 2018 tujia.com 途家版权所有
+					<span>
+						<a href="#">津ICP备17006480号</a>
+					</span>
+					
+				</p>
+				<p class="tubiao">
+					<a href="#">
+						<img src="images/safe-img1.jpg" alt="">
+					</a>
+						
+					<a href="#">
+						<img src="images/safe-img3.jpg" alt="">
+					</a>
+
+					<a href="#">
+						<img src="images/net-img1.jpg" alt="">
+					</a>
+					
+					
+					
+				</p>
+				
+			</div>
+		 		
+			
+				
+		</div>
+
+
+		 <script src="js/jquery.min.js"></script>
+		 <script>
+
+		 	$('.mc-1 span').click(function(event) {
+		 		$(this).hide();
+		 		if($(this).parent('div').siblings('div').children('input').val()==""){
+		 			$(this).parent().siblings('div').children('span').show();
+		 		}else{}
+		 		
+		 	});
+
+		 	$('.mc-1 div span ').click(function(event) {
+		 		$(this).hide();
+		 		if($(this).parent('div').parent('div').siblings('div').children('div').children('input').val()==""){
+		 			$(this).parent('div').siblings('div').parent('div').children('div').children('span').show();
+		 		}else{}
+		 		
+		 	});
+
+
+
+
+
+
+		 		
+		 	
+
+		 </script>
+	</body>
+</html>

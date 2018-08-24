@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/cssreset.css">
+	<link rel="stylesheet" href="css/housestyle.css">
+	<link rel="stylesheet" href="download/iconfont.css">
+	<link rel="stylesheet" href="css/lyz.calendar.css">
+	<link rel="stylesheet" href="css/houseindex.css">
+	<script src='js/jquery.min.js'></script>
+	<script src='js/jquery-1.5.1.js'></script>	
+	<script src='js/lyz.calendar.min.js'></script>
+	<script src='js/houseindex.js'></script>
+	<script>
+	    $(function () {
+
+	        $("#txtBeginDate").calendar({
+
+	            controlId: "divDate",                                 // 弹出的日期控件ID，默认: $(this).attr("id") + "Calendar"
+
+	            speed: 200,                                           // 三种预定速度之一的字符串("slow", "normal", or "fast")或表示动画时长的毫秒数值(如：1000),默认：200
+
+	            complement: true,                                     // 是否显示日期或年空白处的前后月的补充,默认：true
+
+	            readonly: true,                                       // 目标对象是否设为只读，默认：true
+
+	            upperLimit: new Date(),                               // 日期上限，默认：NaN(不限制)
+
+	            lowerLimit: new Date("2011/01/01"),                   // 日期下限，默认：NaN(不限制)
+
+	        });
+
+	        $("#txtEndDate").calendar();
+
+	    });
+	</script>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a href="index.html" target="_blank"><img src="houseindex/tujia-logo.png" alt=""></a>
+			<ul class="h_c">
+				<li><a href="index.html" target="_blank">首页</a></li>
+				<li><a href="#">别墅</a></li>
+				<li><a href="#">海外公寓</a></li>
+				<li><a href="shequindex.html" target="_blank">发现</a></li>
+			</ul>
+			<ul class="h_r">
+				<li><a href="register.html">注册</a></li>
+				<li><a href="login.html">登录</a></li>
+				<li><a href="#">免费发布房屋</a></li>
+			</ul>
+			<p>送300元</p>
+		</div>
+		<div class="banner">
+			<ul class="b_l">
+				<li><img src="houseindex/01.jpg" alt=""></li>
+				<li><img src="houseindex/02.jpg" alt=""></li>
+				<li><img src="houseindex/03.jpg" alt=""></li>
+				<li><img src="houseindex/04.jpg" alt=""></li>
+				<li><img src="houseindex/05.jpg" alt=""></li>
+			</ul>
+			<ol>
+				<li class="current"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ol>
+			<span class="left"></span>
+			<span class="right"></span>
+		</div>
+	</header>
+
+	<div class="nav_div">
+		<nav>
+			<ul>
+				<li><input type="text" value="屏东（垦丁）" id="ipt"><a class="iconfont icon-dingwei"></a></li>
+				<li><span>入住</span><input type="text" placeholder="YYYY-MM-DD" onfocus="this.placeholder=''" onblur="this.placeholder='YYYY-MM-DD'" id="txtBeginDate"><a class="iconfont icon-riqi"></a></li>
+				<li><span>退房</span><input type="text" placeholder="YYYY-MM-DD" onfocus="this.placeholder=''" onblur="this.placeholder='YYYY-MM-DD'" id="txtEndDate"><a class="iconfont icon-riqi"></a></li>
+				<li><input type="text" placeholder="想住屏东（垦丁）哪里" onfocus="this.placeholder=''" onblur="this.placeholder='想住屏东（垦丁）哪里'" id="ipt2"><a class="iconfont icon-yuechi"></a></li>
+			</ul>
+			<button><a href="#">搜索</a></button>
+		</nav>
+
+		<div class="nav_one">
+			<ol>
+				<li class="olbg">热门</li>
+				<li>港台</li>
+				<li>亚洲</li>
+				<li>欧洲</li>
+				<li>美洲</li>
+				<li>大洋洲</li>
+				<li>非洲</li>
+			</ol>
+			<div class="nav_show show_down">
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">普吉岛</a></li>
+					<li><a href="#">东京</a></li>
+					<li><a href="#">曼谷</a></li>
+					<li><a href="#">大阪</a></li>
+					<li><a href="#">首尔</a></li>					
+				</ul>
+				<ul>
+					<li><a href="#">清迈</a></li>
+					<li><a href="#">京都</a></li>
+					<li><a href="#">新加坡</a></li>
+					<li><a href="#">台北</a></li>
+					<li><a href="#">芭提雅</a></li>
+					<li><a href="#">巴厘岛</a></li>				
+				</ul>
+				<ul>
+					<li><a href="#">苏梅岛</a></li>
+					<li><a href="#">屏东(垦丁)</a></li>
+					<li><a href="#">吉隆坡</a></li>
+					<li><a href="#">河内</a></li>
+					<li><a href="#">槟城</a></li>
+					<li><a href="#">花莲</a></li>			
+				</ul>
+				<ul>
+					<li><a href="#">沙巴</a></li>
+					<li><a href="#">甲米</a></li>
+					<li><a href="#">胡志明市</a></li>
+					<li><a href="#">济州岛</a></li>
+					<li><a href="#">暹粒</a></li>
+					<li><a href="#">悉尼</a></li>					
+				</ul>
+				<ul>
+					<li><a href="#">巴黎</a></li>
+					<li><a href="#">伦敦</a></li>
+					<li><a href="#">温哥华</a></li>
+					<li><a href="#">墨尔本</a></li>
+					<li><a href="#">纽约</a></li>
+					<li><a href="#">洛杉矶</a></li>				
+				</ul>
+			</div>
+			<div class="nav_show">
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+			</div>
+			<div class="nav_show">
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+			</div>
+			<div class="nav_show">
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+			</div>
+			<div class="nav_show">
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+			</div>
+			<div class="nav_show">
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+			</div>
+			<div class="nav_show">
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+				<ul>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+					<li><a href="#">香港</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="nav_four">
+			<h3>热门街区</h3>
+			<div class="ulfour">
+				<ul>
+					<li><a href="#">努沙杜瓦</a></li>
+					<li><a href="#">水明漾</a></li>
+					<li><a href="#">金巴兰</a></li>
+					<li><a href="#">乌布</a></li>
+					<li><a href="#">库塔</a></li>
+					<li><a href="#">乌鲁瓦图</a></li>
+					<li><a href="#">巴厘岛夜市</a></li>
+
+				</ul>
+				<ul>
+					<li><a href="#">Pasar Badung市场</a></li>
+					<li><a href="#">Markets艺术馆</a></li>
+					<li><a href="#">身体物语</a></li>
+					<li><a href="#">图兰奔</a></li>
+					    
+				</ul>
+			</div>
+			<h3>热门街区</h3>
+			<div class="ulfour">
+				<ul>
+					<li><a href="#">金巴兰海滩</a></li>
+					<li><a href="#">海神庙</a></li>
+					<li><a href="#">乌鲁瓦图寺</a></li>
+					<li><a href="#">巴厘岛博物馆</a></li>
+					<li><a href="#">乌布皇宫</a></li>
+					<li><a href="#">蓝梦岛</a></li>
+					<li><a href="#">圣泉寺</a></li>				      
+				</ul>
+				<ul>
+					<li><a href="#">蜡染村</a></li>
+					<li><a href="#">蓝点海滩</a></li>
+					<li><a href="#">巴厘岛野生动物园</a></li>
+					<li><a href="#">圣猴森林公园</a></li>
+					<li><a href="#">象窟</a></li>
+					<li><a href="#">乌鲁瓦图断崖</a></li>					     
+				</ul>
+				<ul>
+					<li><a href="#">德格拉朗梯田</a></li>
+					<li><a href="#">罗威纳海滩</a></li>
+					<li><a href="#">梦幻海滩</a></li>
+					<li><a href="#">南湾海滩</a></li>
+					<li><a href="#">乌布村庙</a></li>
+					<li><a href="#">萨努尔</a></li>					     
+				</ul>
+				<ul>
+					<li><a href="#">爆炸纪念碑</a></li>
+					<li><a href="#">百沙基母庙</a></li>
+					<li><a href="#">巴图尔湖</a></li>
+					<li><a href="#">神鹰广场</a></li>
+
+				</ul>
+			</div>
+			<h3>热门街区</h3>
+			<div class="ulfour">
+				<ul>
+					<li><a href="#">乌布市场</a></li>
+					<li><a href="#">库塔艺术市场</a></li>
+					<li><a href="#">巴厘岛免税店</a></li>
+					<li><a href="#">Beachwalk</a></li>
+					<li><a href="#">Libby Plaza购物中心</a></li>  
+				</ul>
+				<ul>
+					<li><a href="#">Bali 购物中心 </a></li>
+					<li><a href="#">DISCOVERY购物中心</a></li>
+					<li><a href="#">巴厘购物中心</a></li>
+					<li><a href="#">Kou化妆品店</a></li>
+					  
+				</ul>
+			</div>
+			<h3>热门街区</h3>
+			<div class="ulfour">
+				<ul>
+					<li><a href="#">巴厘岛国际机场</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</div>	
+	<section>
+		<div class="main">
+			<ul>
+				<li><p><img src="houseindex/sec01.jpg" alt="" width="560px" height="255px"></p></li>
+				<li><p><img src="houseindex/sec02.jpg" alt="" width="255px" height="255px"></p></li>
+				<li><p><img src="houseindex/sec03.jpg" alt="" width="255px" height="255px"></p></li>
+				<li><p><img src="houseindex/sec04.jpg" alt="" width="255px" height="255px"></p></li>
+				<li><p><img src="houseindex/sec05.jpg" alt="" width="255px" height="255px"></p></li>
+				<li><p><img src="houseindex/sec06.jpg" alt="" width="560px" height="255px"></p></li>
+				<li><p><img src="houseindex/sec07.jpg" alt="" width="560px" height="255px"></p></li>
+				<li><p><img src="houseindex/sec08.jpg" alt=""  width="255px" height="255px"></p></li>
+				<li><p><img src="houseindex/sec09.jpg" alt="" width="255px" height="255px"></p></li>
+			</ul>
+			<h2>热门目的地</h2>
+		</div>
+	</section>
+
+	<footer>
+		<div class="f_h">
+			<div class="f_left">
+				<ul>
+					<li>帮助 
+					<ul class="f_bottom">
+						<li><a href="#">游客帮助</a></li>
+						<li><a href="#">会员帮助</a></li>
+						<li><a href="#">业主帮助</a></li>
+						<li><a href="#">商户帮助</a></li>
+					</ul></li>
+					<li>业务介绍 
+					<ul class="f_bottom">
+						<li><a href="#">度假公寓</a></li>
+						<li><a href="#">业主交流</a></li>
+					</ul></li>
+					<li>合作联系 
+					<ul class="f_bottom">
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">结盟途家</a></li>
+						<li><a href="#">申请开店</a></li>
+					</ul></li>
+					<li>关于我们 
+					<ul class="f_bottom">
+						<li><a href="about.html">关于途家</a></li>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">媒体报道</a></li>
+						<li><a href="partner.html">合作伙伴</a></li>
+						<li><a href="joinUs.html">加入途家</a></li>
+					</ul></li>
+					<li>发现 
+					<ul class="f_bottom">
+						<li><a href="shequindex.html">社区</a></li>
+						<li><a href="#">途游卡</a></li>
+						<li><a href="#">邀请好友返利</a></li>
+					</ul></li>
+				</ul>
+				<div class="f_box">
+					<h4>关注途家</h4>
+					<span>
+					<img src="houseindex/footer-icons.png" alt="">
+					</span>
+					<h4>邮箱订阅</h4>
+					<span>
+						<input type="text" placeholder="请输入您的邮箱">
+						<button><a href="#">订阅</a></button>
+					</span>
+				</div>
+				<div class="f_right">			
+					<div class="f_l">
+						<h4>扫描下载途家APP</h4>
+						<p>
+							<img src="houseindex/mobile.png" alt="">
+						</p>
+						
+					</div>	
+					<div class="f_r">
+						<p>国内客服</p>
+						<h3>400-188-1234</h3>
+						<p class="f_p">海外客服</p>
+						<h3>400-188-1234转2</h3>
+						<a>86-10-80697258转2(境外拨打)</a>
+					</div>			
+				</div>
+			</div>
+			
+		</div>
+		<div class="f_f">
+			<div class="f_ul">
+				热门住宿推荐：
+				<ul>
+
+					<li><a href="#">芬利（俄亥俄州）短租公寓</a></li>
+					<li><a href="#">贝克斯菲尔德短租公寓</a></li>
+					<li><a href="#">奈瓦沙湖短租公寓</a></li>
+					<li><a href="#">岛根短租公寓</a></li>
+					<li><a href="#">贝雷克短租公寓</a></li>
+					<li><a href="#">金门短租公寓</a></li>
+					<li><a href="#">鹿儿岛短租公寓</a></li>
+					<li><a href="#">南特短租公寓</a></li>
+					<li><a href="#">科克短租公寓</a></li>
+					<li><a href="#">新加坡短租公寓</a></li>
+					<li><a href="#">布尔戈斯短租公寓</a></li>
+					<li><a href="#">拔摩岛短租公寓</a></li>
+					<li><a href="#">台东短租公寓</a></li>
+					<li><a href="#">谢南多厄(德克萨斯州)短租公寓</a></li>
+					<li><a href="#">普它肋斯短租公寓 </a></li>
+					<li><a href="#">里诺短租公寓</a></li>
+					<li><a href="#">杰克逊维尔(佛罗里达州)短租公寓</a></li>
+					<li><a href="#">加的夫短租公寓</a></li>
+					<li><a href="#">扎金索斯州短租公寓</a></li>
+					<li><a href="#">勒阿弗尔短租公寓</a></li>
+					<li><a href="#">安堤瓜短租公寓</a></li>
+					<li><a href="#">亚洛瓦短租公寓</a></li>
+					<li><a href="#">巴里洛切短租公寓</a></li>
+					<li><a href="#">普罗旺斯地区艾克斯短租公寓</a></li>
+					<li><a href="#">马提尼克岛短租公寓</a></li>
+					<li><a href="#">新加坡短租公寓</a></li>
+					<li><a href="#">邦咯岛和吡叻短</a></li>
+				</ul>
+			</div>
+			<div class="f_ul">
+				热门公寓推荐：
+				<ul>				      
+					<li><a href="#">格勒诺布尔短租公寓</a></li>
+					<li><a href="#">凯麦尔短租公寓</a></li>
+					<li><a href="#">瑞典短租公寓</a></li>
+					<li><a href="#">班斯科短租公寓</a></li>
+					<li><a href="#">挪威短租公寓 圣托里尼</a></li>
+					<li><a href="#">水上公园住宿推荐</a></li>
+					<li><a href="#">攀牙府短租公寓 温哥华</a></li>
+					<li><a href="#">(华盛顿州)短租公寓</a></li>
+					<li><a href="#">贝辛斯托克短租公寓</a></li>					
+				</ul>
+			</div>
+			<div class="f_ul">
+				友情链接：
+				<ul>				 
+					<li><a href="#">途家民宿</a></li>
+					<li><a href="#">出国旅游报价</a></li>
+					<li><a href="#">日本通旅游频道</a></li>
+					<li><a href="#">中国高速网旅游频道</a></li>
+					<li><a href="#">更多友情链接</a></li>
+								
+				</ul>
+			</div>
+		</div>
+		<div class="f_footer">
+			<div class="f_fff">
+				<p>© Copyright 2018 tujia.com 途家 版权所有 不得转载
+				<a href="#">津ICP备17006480号</a></p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>

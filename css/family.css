@@ -1,0 +1,363 @@
+/*
+* @Author: Administrator
+* @Date:   2018-06-26 17:49:27
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-28 21:57:10
+*/
+body{
+	min-width: 1200px;
+	background: #ecf2f4;
+}
+header{
+	background:#fff;
+	height:40px;
+}
+._banner{
+	position:relative;
+}
+._banner img{
+	width: 100%;
+	height: 240px;
+}
+._banner span{
+	width: 72px;
+	height: 32px;
+	background:#7a7f81;
+	border-radius: 3px;
+	position:absolute;
+	top: 20px;
+    right:50px;
+    text-align:center;
+}
+._banner span i{
+	color:#fff;
+	font-size:26px;
+	cursor: pointer;
+}
+._banner span i:hover{
+	color:#ff6600;
+}
+.holder,.move{
+	width:100%;
+	height:55px;
+	background: #fff;
+}
+
+.holder nav,.move nav{
+	width:1200px;
+	height:55px;
+	background:#fff;
+	margin-top: -2px;
+	margin:0 auto;
+}
+.fixed_nav{
+	position: fixed;
+	height: 55px;
+	top: 0;
+	z-index: 20;
+}
+nav ul{
+	width: 1191px;
+	height: 55px;
+	margin: 0 auto;
+	line-height: 55px;
+	background: #fff;
+}
+nav ul li{
+	float: left;
+	text-align: center;
+	width:132px;
+	position:relative;
+}
+nav ul .font a{
+	color: #ff6600;
+}
+nav ul .font a span{
+	border: 1px solid #f60;	
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+}
+nav ul li a{
+	font-size: 18px;
+	color: #666;
+	text-decoration: none;
+}
+nav ul li:hover a{
+	color:#ff6600;
+}
+nav ul li:hover span{
+	border: 1px solid #f60;	
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+}
+nav li:last-child span{
+	width: 12px;
+	height: 12px;
+	transform:rotate(45deg);
+	border: 1px solid #666;	
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+	position: absolute;
+	top: 20px;
+    left: 95px;
+}
+
+._main{
+	width: 1190px;
+	overflow: hidden;
+
+}
+.main_ul{
+	text-align:center;
+}
+.main_ul .two_ul{
+	width:100%;
+	height: 533px;
+	margin:25px 0;
+	position:relative;
+	overflow: hidden;
+}
+.main_ul .two_ul li{
+	float:left;
+	width: 581px;
+	height: 533px;
+	margin-right: 25px;
+	background:#fff;
+	overflow:hidden;
+	position: relative;
+}
+.main_ul .two_ul p{
+	width: 580px;
+	height: 358px;
+	overflow:hidden;
+}
+.main_ul img:hover{
+	transition:all 1s;
+	transform:scale(1.2,1.2);
+}
+.main_ul .two_ul li:nth-of-type(2){
+	margin-right:0;
+}
+.main_ul li span{
+	position:absolute;
+	width: 36px;
+	height: 34px;
+	top: 15px;
+	right: 15px;
+	margin-left: -70px;
+	z-index: 2;
+	cursor:pointer;
+	background: url('../family/collect.png') no-repeat;
+}
+.main_ul li .like{
+	background: url('../family/collect.png') no-repeat;
+	background-position: -36px 0;
+}
+.main_ul .two_ul li:nth-of-type(2) span{
+	margin-left: 540px;
+}
+.two_ul .box_b{
+	width: 550px;
+	height: 110px;
+	/* background: red; */
+	margin: 22px 15px;
+	overflow: hidden;
+	text-align: left;
+}
+.two_ul .box_b .b_to{
+	height: 65px;
+	/* background: lime; */
+}
+.two_ul .box_b .b_to p{
+	font-size: 18px;
+	color: #333;
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
+	
+}
+
+.two_ul .box_b .b_to p:hover{
+	text-decoration: underline;
+}
+.two_ul .box_b .b_to a{
+	font-size: 14px;
+}
+.two_ul .box_b .b_to i{
+	font-size: 14px;
+	color: #666;
+}
+.two_ul .box_b .b_to u{
+	font-size: 14px;
+	color: #3b83cb;
+	text-decoration: none;
+	cursor: pointer;
+}
+.two_ul .box_b .b_to u:hover{
+	text-decoration: underline;
+}
+
+.two_ul .box_b .b_bo{
+	height: 45px;
+	width: 100%;
+	border-top: 1px dashed #666;
+	font-family: '黑体';
+	box-sizing: border-box;
+	padding-top: 10px;
+	position: relative;
+}
+.main_ul .b_bo p{
+	/* position: absolute; */
+	width: 35px;
+	line-height: 35px;
+	width: 65px;
+	font-size: 28px;
+	color: #ff3300;
+	font-weight: bold;	
+}
+.main_ul .b_bo b{
+	font-size: 20px;
+}
+.main_ul .b_bo .button{
+	position: absolute;
+	top: 9px;
+	right: 2px;
+	width: 122px;
+	height: 35px;
+	border: none;
+	background: #ff6600;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 16px;	
+}
+.two_ul .b_bo .button:hover{
+	text-decoration: underline;
+}
+
+
+.main_ul .three_ul{
+	width:100%;
+	height: 455px;
+	margin-bottom:30px;
+	overflow: hidden;
+	position: relative;
+}
+.main_ul .three_ul li{
+	float:left;
+	width: 370px;
+	height: 405px;
+	background:#fff;
+	position: relative;	
+}
+.main_ul .three_ul p{
+	width: 370px;
+	height: 232px;
+	overflow:hidden;
+}
+.main_ul .three_ul li:nth-of-type(2){
+	margin:0 40px;
+}
+.three_ul .box_b{
+	width: 340px;
+	height: 110px;
+	margin: 22px 15px;
+	overflow: hidden;
+	text-align: left;
+}
+.three_ul .box_b .b_to{
+	height: 65px;
+}
+.three_ul .box_b .b_to p{
+	height: 30px;
+}
+.three_ul .box_b .b_to a{
+	font-size: 14px;
+}
+.three_ul .box_b .b_to i{
+	font-size: 14px;
+	color: #666;
+}
+.three_ul .box_b .b_to u{
+	font-size: 14px;
+	color: #3b83cb;
+	text-decoration: none;
+	cursor: pointer;
+}
+.three_ul .box_b .b_to u:hover{
+	text-decoration: underline;
+}
+.three_ul .box_b .b_to p:hover{
+	text-decoration: underline;
+}
+.three_ul .box_b .b_bo{
+	height: 45px;
+	border-top: 1px dashed #666;
+	box-sizing: border-box;
+	padding-top: 10px;
+	position: relative;
+}
+.three_ul .box_b .b_bo .button{
+	top: 9px;
+	right: 5px;
+}
+.m_hide{
+	display: none;
+}
+
+.main_ul .button{
+	width: 155px;
+	height: 35px;
+	line-height:35px;
+	text-align:center;
+	margin:0 auto;
+	border: 1px solid #ccc;
+	background:#fff;
+	font-size:14px;
+	color:#666;
+	cursor:pointer;
+}
+.main_ul .three_ul>.button{
+	width: 100px;
+	height: 35px;
+	line-height:35px;
+	text-align:center;
+	margin:0 auto;
+	border: 1px solid #ccc;
+	background:#fff;
+	font-size:14px;
+	color:#666;
+	cursor:pointer;
+	position: absolute;
+    bottom: 2px;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 3;
+}
+#more8{
+	position: relative;
+}
+.main_ul #more8>.button{
+	width: 100px;
+	height: 35px;
+	line-height:35px;
+	text-align:center;
+	margin:0 auto;
+	border: 1px solid #ccc;
+	background:#fff;
+	font-size:14px;
+	color:#666;
+	cursor:pointer;
+	position: absolute;
+    bottom: 2px;
+    left: 50%;
+    margin-left: -50px;
+    z-index: 3;
+}
+}
+.main_ul .button:hover{
+	text-decoration:underline;
+}
+
+.b_b{
+	margin-bottom: 30px;
+}

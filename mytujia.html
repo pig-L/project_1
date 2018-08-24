@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/cssreset.css">
+	<link rel="stylesheet" href="download/iconfont.css">
+	<link rel="stylesheet" href="css/housestyle.css">
+	<link rel="stylesheet" href="css/mem_ben02.css">
+	<link rel="stylesheet" href="css/mytujia.css">
+
+
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a href="index.html"><img src="houseindex/tujia-logo.png" alt=""></a>
+			<ul class="h_c">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="#">别墅</a></li>
+				<li><a href="#">海外公寓</a></li>
+				<li><a href="shequindex.html">发现</a></li>
+			</ul>
+			<ul class="h_r">
+				<li><a href="mytujia.html">我的途家</a></li>
+				<li><a href="index.html">[退出]</a></li>
+				<li><a href="#">免费发布房屋</a></li>
+			</ul>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">途家网</a><span>></span></li>
+			<li><a href="#">绑定芝麻信用</a><span>></span></li>
+			<li><a>我的订单</a></li>
+		</ul>
+	</nav>
+	<section>
+		<div class="left">
+			<div class="l_top">
+				<p><img src="mytujia/user.png" alt="" width="60px" height="60px">
+				</p>
+				<span>
+				<h4>134****2413</h4>
+				<a>修改个人资料</a><br>
+				<a>钻石卡绑定</a>
+				</span>
+			</div>
+			<div class="l_bottom">
+				<ul>
+					<li><span class="iconfont icon-dingdan"></span>我的订单</li>
+					<li><a href="#">订单管理</a></li>
+					<li><a href="#">点评管理</a></li>
+				</ul>
+			</div>
+			<div class="l_bottom">
+				<ul>
+					<li><span class="iconfont icon-qian"></span>我的资产</li>
+					<li><a href="#">帐户余额</a></li>
+					<li><a href="#">收款帐号</a></li>
+					<li><a href="#">我的途游卡</a></li>
+					<li><a href="#">我的红包</a></li>
+					<li><a href="#">我的积分</a></li>
+				</ul>
+			</div>
+			<div class="l_bottom">
+				<ul>
+					<li><span class="iconfont icon-gerenzhongxin"></span>个人中心</li>
+					<li><a href="#">个人资料</a></li>
+					<li><a href="#">修改密码</a></li>
+					<li><a href="#">我的收藏</a></li>
+					<li><a href="#">常用入住人</a></li>
+					<li><a href="#">我的发票</a></li>
+					<li><a href="#">会员俱乐部</a></li>
+					<li><a href="#">通知(1)</a></li>
+					<li><a href="#">消息</a></li>
+				</ul>
+			</div>
+			<div class="l_bottom">
+				<ul>
+					<li><span class="iconfont icon-16"></span>邀请与提成</li>
+					<li><a href="#">好友返利</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="right">
+			<h2>我的订单</h2>
+			<div class="order">
+				<ul>
+					<li class="current">国内订单</li>
+					<li>海外·港台订单</li>
+					<li>途远订单</li>
+				</ul>
+			</div>
+			<div>
+				<div class="o_box show ">
+					<div>
+						<input type="radio" checked>
+						全部订单
+					</div>
+					<div class="div2">
+						<input type="radio">
+						未付款订单	
+					</div>				
+					<p>您还没有订单。</p>
+				</div>
+				<div class="o_box ">
+				
+					<p>您还没有订单。</p>
+				</div>
+				<div class="o_box ">
+					<div>
+						<input type="radio" checked>
+						全部订单
+					</div>
+					<div class="div2">
+						<input type="radio">
+						未付款订单	
+					</div>				
+					<p>您还没有订单。</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<ul>
+			<li><a href="about.html">关于我们</a></li>
+			<li><a href="roomer.html">我是房客</a></li>
+			<li><a href="joinUs.html">加入途家</a></li>
+			<li><a href="#">网站地图</a></li>
+		</ul>
+	</footer>
+	<script src='js/jquery.min.js'></script>
+	<script>
+		$('.order li').click(function(event) {
+			$(this).addClass('current');
+			$(this).siblings('li').removeClass('current');
+			$('.o_box').eq($(this).index()).addClass('show');
+			$('.o_box').eq($(this).index()).siblings().removeClass('show');
+		});
+
+		$('.o_box div').click(function() {			
+			$(this).children('input').attr('checked', 'true');
+			$(this).siblings('div').children('input').removeAttr('checked');
+		});
+	</script>
+</body>
+</html>

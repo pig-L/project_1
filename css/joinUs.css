@@ -1,0 +1,145 @@
+/*
+* @Author: admin
+* @Date:   2018-06-25 09:45:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-07-01 20:24:23
+*/
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: url("../images/join_bg.jpg")0px -50px;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	min-width: 1200px;
+}
+header{
+	width: 1440px;
+	height: 60px;
+	background: rgba(0,0,0,0.2);
+	position: fixed;
+	color: white;
+	font-size: 16px;
+}
+header h1{
+	width: 170px;
+	height: 40px;
+	margin-left:228px;
+	display: inline-block;
+	padding-right: 30px;
+	border-right: 1px solid white;
+}
+header h1 img{
+	padding-bottom: 10px;
+}
+header a{
+	color: white;
+}
+header ul{
+	display: inline-block;
+	height: 60px;
+	margin-left: 20px;
+}
+header ul li{
+	width: 110px;
+	float: left;
+	padding: 0px 15px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+}
+header li.on{
+	background: url("../images/on.png");
+}
+header li:hover{
+	background: url("../images/on.png");
+}
+header .left{
+	position: absolute;
+	top: 22px;
+	right: 265px;
+	text-decoration: underline;
+}
+header .right{
+	position: absolute;
+	top: 22px;
+	right: 216px;
+	text-decoration: underline;
+}
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -300px;
+	margin-top: -26px;
+}
+.main input{
+	border: 1px solid #ccc;
+	width: 545px;
+	height: 50px;
+	font-size: 14px;
+	padding-left: 20px;
+	float: left;
+}
+.main span{
+	float: left;
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	width: 1440px;
+	background: rgba(255,255,255,0.3);
+}
+footer .maintext{
+	width: 1029px;
+	margin-left:228px;
+	font-size: 14px;
+}
+.maintext ul{
+	margin-top: 20px;
+	width: 440px;
+	height: 115px;
+	display: inline-block;
+	border-right: 1px solid white;
+}
+.maintext ul li{
+	text-overflow: ellipsis;
+	word-wrap: break-word;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	width: 200px;
+	float: left;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+.maintext a{
+	color: black;
+}
+.maintext a:hover{
+	text-decoration: underline;
+}
+.h3{
+	font-size: 20px;
+	padding: 0px;
+}
+.maintext .no{
+	margin-bottom: 0px;
+}
+.maintext img{
+	display: inline-block;
+	width: 115px;
+	height: 115px;
+	margin-left: 10px;
+}
+.footer2{
+	width: 1440px;
+	height: 28px;
+	background:rgba(255,255,255,0.4);
+	text-align: center;
+	line-height: 10px;
+}

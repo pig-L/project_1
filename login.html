@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>会员登录-途家网</title>
+		<link rel="stylesheet" href="css/login.css">
+		 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<span> < <a class="return" href='index.html'>返回首页</a> </span>
+				
+			</div>
+				
+			
+			<h1>
+				<img src="images/tujia-log.png" alt="">
+			</h1>
+				
+			
+			<div class="main">
+					<div class="main-left-top">
+						<a class="mt-left active" href="#">普通方式登录</a>
+						<span class="fs">|</span>
+
+						<a class="mt-right" href="#">手机动态密码登录</a>
+					
+					</div>
+
+					<div class="main-left-center">
+						<label for="username">
+							<input id="username" value="" type="text">
+							<span class="user-span">邮箱/手机号/用户名</span>
+							
+						</label>
+					
+						<label for="password">
+							<input id="password" value="" type="password">
+					
+							<span class="password-span">密码</span>
+							<i class="pwd-pic"></i>
+							
+						</label>
+					
+						<label for="yanzheng">
+							<input id="yanzheng" value="" type="text">
+					
+							<span class="yanz-span">请输入验证码</span>
+							
+						</label>
+					
+						<img class="yanz-pic" src="images/VerifyImage.jpg" alt="">
+					
+						<div class="kong">
+							<label for="baocun">
+								<input id="baocun" value="" type="checkbox">保存登录时长一个月
+					
+								<a class="wangji" href="#">忘记密码</a>
+					
+					
+							</label>
+						</div>
+
+						<div class="login">
+							<input class="login-bnt" value="登录" title="登录" type="submit">
+							
+						</div>	
+							
+					</div>
+						<div class="main-left-center2">
+						<label for="username">
+							<input id="username" value="" type="text">
+							<span class="user-span">请输入手机号</span>
+							
+						</label>
+
+						<div class="mlc-center">
+				
+							<input id="ma" value="" type="text">
+
+							<span class="password-span">请输入验证码</span>
+
+							<img src="images/VerifyImage2.jpg" alt="">
+
+						</div>
+
+						<div class="mlc-bottom">
+							<input id="dongtai" value="" type="text">
+
+							<span class="dongtai-span">请输入动态密码</span>
+							<input class="dongtai-right" value="获取手机验证码" type="text">
+
+						</div>
+						<div class="shou-kong">
+						
+								<input id="shou-baocun" value="" type="checkbox">保存登录时长一个月
+					
+								<a class="shou-wangji" href="#">忘记密码</a>
+					
+							
+						</div>
+							
+
+						<div class="shou-login">
+							<input class="login-bnt" value="登录" title="登录" type="submit">
+							
+						</div>	
+					</div>
+					
+			<div class="biankuang">		
+				<div class="main-right">
+					<h2>合作网站登录账号</h2>
+					<div class="main-right-top">
+						<p>	
+							<a class="QQlogin" href="#" title="QQ账户登录"></a>
+							<a class="xinlanglogin" href="#" title="新浪微博账户登录"></a>
+							<a class="weichatlogin" href="#" title="微信账号登录"></a>
+							
+						</p>
+
+					</div>
+
+					<div class="main-right-content">
+						还不是途家会员?
+						<a class="zhuce" href="register.html">立即注册>></a>
+					</div>
+
+					<div class="main-right-center">
+						<img src="images/201712191757191955.jpg" alt="">
+					</div>
+
+					<div class="main-right-footer">
+						<h5>下载手机APP,随时随地订房</h5>
+						<div class="main-right-footer-left">
+							<img src="images/code.png" alt="">
+						</div>
+						<div class="main-right-footer-right">
+							<a class="ad" href="#">Android版下载<i class="anzhuo"></i></a>
+							<a class="ip" href="#">iphone版下载<i class="pingguo"></i></a>
+						</div>
+
+					</div>
+
+				</div>
+			  </div>
+			</div>
+		</div>
+
+		<div class="footer">
+	
+		 		<div class="footer-top">
+				<a href="#">关于我们</a>
+				<span>| </span>
+				<a href="#">我是房客</a>
+				<span>| </span>
+				<a href="#">加入途家</a>
+				<span>| </span>
+				<a href="#">网站地图</a>
+				</div>
+
+			<div class="footer-bottom">
+				<p class="banjia">
+					© Copyright 2018 tujia.com 途家版权所有
+					<span>
+						<a href="#">津ICP备17006480号</a>
+					</span>
+					
+				</p>
+				<p class="tubiao">
+					<a href="#">
+						<img src="images/safe-img1.jpg" alt="">
+					</a>
+						
+					<a href="#">
+						<img src="images/safe-img3.jpg" alt="">
+					</a>
+
+					<a href="#">
+						<img src="images/net-img1.jpg" alt="">
+					</a>
+					
+					
+					
+				</p>
+				
+			</div>
+		 		
+			
+				
+		</div>
+		 <script src="js/jquery.min.js"></script>
+		 <script>
+		 	$('.mt-left').click(function(event) {
+
+		 		$('.main-left-center').show();
+		 		$('.main-left-center2').hide();
+
+		 		$('.mt-right').removeClass('active');
+		 		$(this).addClass('active');
+		 		$(this).css('text-decoration','none');
+		 		$('.mt-right').hover(function() {
+		 			$(this).css('text-decoration', 'underline');
+		 		}, function() {
+		 			$(this).css('text-decoration', 'none');
+		 		});
+
+		 		return false;
+
+
+
+		 	});
+		 	$('.mt-right').click(function(event) {
+
+		 		$('.main-left-center2').show();
+		 		$('.main-left-center').hide();
+		 		$('.mt-left').removeClass('active');
+		 		$(this).addClass('active');
+		 		$(this).css('text-decoration','none');
+		 		$('.mt-left').hover(function() {
+		 			$(this).css('text-decoration', 'underline');
+		 		}, function() {
+		 			$(this).css('text-decoration', 'none');
+		 		});
+
+
+		 		return false;
+
+
+		 	});
+
+
+
+
+		 	$('.main-left-center label span').click(function(event) {
+
+		 		$(this).hide();
+
+
+		 		if($(this).parent().siblings('label').children('input').val()==""){
+
+		 			$(this).parent().siblings('label').children('span').show();
+
+
+
+		 		}else{
+		 			
+
+		 		}
+
+		 	});
+
+
+		 	$('.main-left-center2 label span').click(function(event) {
+
+		 		$(this).hide();
+
+
+		 		if($(this).parent().siblings('label').children('input').val()==""){
+
+		 			$(this).parent().siblings('div').children('span').show();
+
+		 		}else{
+		 			
+		 		}
+
+		 	});
+
+
+		 	$('.main-left-center2 div span').click(function(event) {
+		 		
+		 		$(this).hide();
+
+		 		if($(this).parent().siblings('label').children('input').val()==""){
+
+		 			$(this).parent().siblings('div').children('span').show();
+
+		 		}else{
+		 			
+		 		}
+
+		 	});
+
+
+
+
+
+		 	
+
+
+
+
+
+
+
+
+
+
+
+		 </script>
+	</body>
+</html>

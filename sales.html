@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="css/dateRange.css">
+		<link rel="stylesheet" href="css/sales.css">
+	</head>
+	<body>
+		<header>
+				<div class="nav">
+					<div class="container">
+						<h1><a href="index.html"><img src="images/tujia-logo-2.2e28f2a.png" alt=""></a></h1>
+						<ul>
+							<li class="current"><a href="#">首页</a></li>
+							<li><a href="#">全球公寓</a></li>
+							<li><a href="#">发现</a></li>
+						</ul>
+						<div class="login">
+							<a href="#">注册</a>
+							<a href="#">登录</a>
+							<span><a href="#">免费发布房屋</a><b class="triangle"></b></span>
+							<div class="span_hide">
+								<a href="#">看每个月能赚多少钱</a>
+								<a href="#">免费发布房屋</a>
+								<div class="triangle"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="sale_bg"></div>
+				<div class="head_bottom">
+					<ul>
+						<li class="li_cur">全球特价</li>
+						<li>限量秒抢</li>
+						<li>当季玩法</li>
+					</ul>
+				</div>
+		</header>
+		<section>
+			<div class="container">
+				<div class="sales_time">距离开始还有 <span>0</span><span>3</span>天 <span>1</span> <span>1</span> 时 <span>3</span> <span>9</span> 分 <span>4</span> <span>9</span> 秒</div>
+				<div class="search_city">
+					城市<div class="pick_city"><b></b><span>上海</span><i></i></div>
+					日期<div class="tadate" id="div_date1"><b class="b_2"></b><span class="date_title" id="date1"></span><i></i></div>
+					户型<div class="pick_type"><b class="b_3"></b><span>全部</span><i></i></div>
+					<span>搜索</span>
+					<div class="city">
+						<a>上海</a>
+						<a>成都 </a>
+						<a>三亚 </a>
+						<a>重庆 </a>
+						<a>广州 </a>
+						<a>丽江 </a>
+						<a>厦门 </a>
+						<a>苏州 </a>
+						<a>北京 </a>
+						<a>桂林 </a>
+						<a>青岛 </a>
+						<a>大理 </a>
+						<a>西昌 </a>
+						<a>西安 </a>
+						<a>杭州 </a>
+						<a>秦皇岛 </a>
+						<a>郑州 </a>
+						<a>武汉 </a>
+						<a>长沙 </a>
+						<a>贵阳 </a>
+						<a>洛阳 </a>
+						<a>昆明 </a>
+						<a>惠州 </a>
+						<a>张家界 </a>
+						<a>海口 </a>
+						<a>西双版纳 </a>
+						<a>深圳 </a>
+						<a>北海 </a>
+						<a>南京 </a>
+						<a>珠海 </a>
+						<a>哈尔滨 </a>
+						<a>大连 </a>
+						<a>天津 </a>
+						<a>营口 </a>
+						<a>威海 </a>
+						<a>烟台 </a>
+						<a>西塘 </a>
+						<a>凤凰(湘西) </a>
+						<a>峨眉山</a>
+					</div>
+					<div class="house_type">
+						<a>全部 </a>
+						<a>	一居 </a>
+						<a>	二居 </a>
+						<a>	三居 </a>
+						<a>	四居及以上</a>	
+					</div>
+				</div>
+				<div class="list_city">
+					<ul>
+						<li class="city_cur">上海</li>
+						<li>成都</li>
+						<li>三亚</li>
+						<li>重庆</li>
+						<li>广州</li>
+						<li>丽江</li>
+						<li>厦门</li>
+						<li>苏州</li>
+						<li>北京</li>
+						<li>桂林</li>
+						<li class="more"><span>更多</span><b></b></li>
+					</ul>
+					<div class="city">
+							<ul>
+								<li>上海</li>
+								<li>成都</li>
+								<li>三亚</li>
+								<li>重庆</li>
+								<li>广州</li>
+								<li>丽江</li>
+								<li>厦门</li>
+								<li>苏州</li>
+								<li>北京</li>
+								<li>桂林</li>
+							</ul>
+							<a>青岛 </a>
+							<a>大理 </a>
+							<a>西昌 </a>
+							<a>西安 </a>
+							<a>杭州 </a>
+							<a>秦皇岛 </a>
+							<a>郑州 </a>
+							<a>武汉 </a>
+							<a>长沙 </a>
+							<a>贵阳 </a>
+							<a>洛阳 </a>
+							<a>昆明 </a>
+							<a>惠州 </a>
+							<a>张家界 </a>
+							<a>海口 </a>
+							<a>西双版纳 </a>
+							<a>深圳 </a>
+							<a>北海 </a>
+							<a>南京 </a>
+							<a>珠海 </a>
+							<a>哈尔滨 </a>
+							<a>大连 </a>
+							<a>天津 </a>
+							<a>营口 </a>
+							<a>威海 </a>
+							<a>烟台 </a>
+							<a>西塘 </a>
+							<a>凤凰(湘西) </a>
+							<a>峨眉山</a>
+					</div>
+					<div class="range">
+						<ul>
+							<li>推荐排序 </li>
+							<li>| </li>
+							<li><i></i>房价  </li>
+							<li>|</li>
+							<li><i></i>折扣</li>
+						</ul>
+					</div>
+				</div>
+				<div class="city_item">
+					<ul>
+						<li><img src="images/city01.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city02.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city03.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city04.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city05.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city06.png" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city07.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city31.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city32.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city33.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city34.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city35.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city36.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city07.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city07.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city05.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city06.png" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city07.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city31.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city32.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city33.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city34.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city35.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city36.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city01.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city02.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city03.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city04.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city05.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city06.png" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="city_item unplay">
+					<ul>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city08.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city09.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city10.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city11.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city12.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city13.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city14.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city15.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city16.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city17.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city18.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city19.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city20.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city21.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city22.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city23.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city24.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city25.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city26.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city27.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city28.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city29.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+						<li><img src="images/city30.jpg" alt=""><i>8.0折</i><div class="detail_city">
+							<p>【居然-品质】广兰路/轰趴/ 新国展中心</p>
+							<p>5.0分/6点评 · 5居/5床/宜住10人·浦东新区</p>
+							<div class="detail_left"><span>￥9999</span><span>秒杀价 <b class="h4">￥9000</b> 省 ￥999</span></div>
+							<div class="detail_right">开抢<br>提醒我</div>
+						</div></li>
+					</ul>
+				</div>
+				<div class="more_house">
+					更多秒杀房屋<i></i>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="footer-head">
+				<div class="container">
+					<div class="head-left">
+						<p>国内客服</p>
+						<p class="h5">400-188-1234</p>
+						<p>海外客服</p>
+						<p class="h5">400-188-1234转2</p>
+						<p>86-10-80697258转2（境外拨打）</p>
+					</div>
+					<div class="head-mid">
+						<ul>
+							<li class="spc">下载APP</li>
+							<li class="spc">关注微信小程序</li>
+							<li class="spc">关注途家</li>
+							<li class="ig i_1"></li>
+							<li class="ig i_2"></li>
+							<li><a href="#"><span class="ic c_1"></span></a>
+							<span class="ic c_2"></span></li>
+						</ul>
+					</div>
+					<div class="head-right">
+						<ul>
+							<li><a href="#">我是房客</a></li>
+							<li><a href="#">许可经营</a></li>
+							<li><a href="#">关于途家</a></li>
+							<li><a href="#">加入途家</a></li>
+							<li><a href="#">合作伙伴</a></li>
+							<li><a href="#">买楼收租</a></li>
+							<li><a href="#">途远度假</a></li>
+						</ul>
+						
+					</div>
+				</div>
+			</div>
+			<div class="footer-middle">
+				<div class="container">
+					<div class="group">
+					<ul>
+						<li><p>途家热门公寓推荐:</p></li>
+						<li><a href="#">厦门酒店式公寓</a></li>
+						<li><a href="#">西安酒店式公寓</a></li>
+						<li><a href="#">武汉住宿</a></li>
+						<li><a href="#">南京酒店式公寓</a></li>
+						<li><a href="#">太原酒店式公寓</a></li>
+						<li><a href="#">广州酒店式公寓</a></li>
+						<li><a href="#">桂林酒店式公寓</a></li>
+						<li><a href="#">北京酒店式公寓</a></li>
+						<li><a href="#">珠海酒店式公寓</a></li>
+					</ul>
+					<ul class="hideul">
+						<li><a href="#">三亚住宿</a></li>
+						<li><a href="#">上海住宿</a></li>
+						<li><a href="#">成都酒店式公寓</a></li>
+						<li><a href="#">上海酒店式公寓</a></li>
+						<li><a href="#">成都住宿</a></li>
+						<li><a href="#">香港住宿</a></li>
+						<li><a href="#">青岛住宿</a></li>
+						<li><a href="#">苏州酒店式公寓</a></li>
+						<li><a href="#">沈阳酒店式公寓</a></li>
+						<li><a href="#">厦门住宿</a></li>
+						<li><a href="#">天津酒店式公寓</a></li>
+						<li><a href="#">深圳酒店式公寓</a></li>
+						<li><a href="#">杭州酒店式公寓</a></li>
+						<li><a href="#">三亚酒店式公寓</a></li>
+					</ul>
+					<span class="hide"></span>
+				</div>
+				<div class="group">
+					<ul>
+						<li><p>香港酒店式公寓家热门日租房短租房推荐：</p></li>
+						<li><a href="#">洛阳日租房</a></li>
+						<li><a href="#">昆明日租房</a></li>
+						<li><a href="#">广州短租房</a></li>
+						<li><a href="#">大理日租房</a></li>
+						<li><a href="#">上海日租房</a></li>
+						<li><a href="#">长沙日租房</a></li>
+						<li><a href="#">重庆日租房</a></li>
+						<li><a href="#">北京日租房</a></li>
+						<li><a href="#">秦皇岛日租房</a></li>
+					</ul>
+					<ul class="hideul">
+						<li><a href="#">厦门日租房</a></li>
+						<li><a href="#">珠海日租房</a></li>
+						<li><a href="#">成都日租房</a></li>
+						<li><a href="#">杭州日租房</a></li>
+						<li><a href="#">南昌短租房</a></li>
+						<li><a href="#">深圳短租房</a></li>
+						<li><a href="#">西安日租房</a></li>
+						<li><a href="#">青岛日租房</a></li>
+						<li><a href="#">太原日租房</a></li>
+						<li><a href="#">天津短租房</a></li>
+						<li><a href="#">威海日租房</a></li>
+						<li><a href="#">济南日租房</a></li>
+						<li><a href="#">大连日租房</a></li>
+						<li><a href="#">桂林日租房</a></li>
+						<li><a href="#">南京日租房</a></li>
+					</ul>
+					<span class="hide"></span>
+				</div>
+				<div class="group">
+					<ul>
+						<li><p>友情链接：</p></li>
+						<li><a href="#">途家旅游指南</a></li>
+						<li><a href="#">更多友情链接</a></li>
+						<li><a href="#">途家网（手机版）</a></li>
+						<li><a href="#">去哪儿网机票</a></li>
+						<li><a href="#">九游网</a></li>
+						<li><a href="#">沈阳旅行社</a></li>
+						<li><a href="#">中国国际旅行社</a></li>
+						<li><a href="#">E都市</a></li>
+						<li><a href="#">智房旅游地产</a></li>
+					</ul>
+					<ul class="hideul">
+						<li><a href="#">遨游搜旅游网</a></li>
+						<li><a href="#">拉拉勾旅游网</a></li>
+						<li><a href="#">米胖网</a></li>
+						<li><a href="#">途牛旅游网</a></li>
+						<li><a href="#">游多多自助游</a></li>
+						<li><a href="#">蚂蚁短租</a></li>
+						<li><a href="#">北京房产</a></li>
+						<li><a href="#">采购招标网</a></li>
+						<li><a href="#">二手车</a></li>
+						<li><a href="#">找工作</a></li>
+						<li><a href="#">幼儿教育</a></li>
+						<li><a href="#">中考网</a></li>
+						<li><a href="#">装修资讯</a></li>
+					</ul>
+					<span class="hide"></span>
+				</div>
+				</div>
+				
+			</div>
+			<div class="footer-bottom">
+				<div class="container">
+					<p>© Copyright 2018 tujia.com途家版权所有    津ICP备17006480号<a href="#" >营业执照号ZMG1507002</a></p>
+					<a href="#"><span class="sp1"></span></a>
+					<a href="#"><span class="sp2"></span></a>
+					<a href="#"><span class="sp3"></span></a>
+					<a href="#"><span class="sp4"></span></a>
+				</div>
+			</div>
+		</footer>
+		<div class="list-fix">
+			<div class="QR_code">
+				<ul>
+					<li>下载途家APP</li>
+					<li>微信小程序</li>
+					<li class="ig i_1"></li>
+					<li class="ig i_2"></li>
+					<li class="p-2">预定更方便 
+					入住返积分</li>
+					<li class="p-2">微信扫一扫即可用</li>
+				</ul>
+			</div>
+			<ul>
+				<li><div class="li-icon" alt="二维码"></div><span></span></li>
+				<li><div class="li-icon" alt="服务"></div><span></span></li>
+				<li><div class="li-icon" alt="收藏"></div><span></span></li>
+				<li><div class="li-icon" alt="消息"></div><span></span></li>
+				<li><div class="li-icon" alt="通知"></div><span></span></li>
+				<li><div class="li-icon" alt="用户反馈"></div><span></span></li>
+			</ul>
+		</div>
+		<div class="active">
+			<div class="img_ig"><img src="images/active.png" alt=""></div>
+			<div class="ig i_1"></div>
+			<div class="recomd">
+				<p>APP预定更省钱</p>
+				<p>APP预定更便捷
+				会员入住返积分！</p>	
+			</div>
+			<a title="关闭"></a>
+		</div>
+		<div class="discount">
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/dateRange.js"></script>
+		<script>
+			var city_num=1;
+			$('header .login span').hover(function() {
+				$(this).parent().children('.span_hide').show();
+			}, function() {
+				$(this).parent().children('.span_hide').hide();
+			});
+			$('.search_city .pick_city').click(function(event) {
+				$('.search_city .city').show();
+				return false;
+			});
+			$('.city a').click(function(event) {
+				$(this).addClass('click_cur').siblings('a').removeClass('click_cur');
+				$('.search_city .pick_city').children('span').html($(this).html());
+			});
+			$('.search_city .pick_type').click(function(event) {
+				$('.house_type').show();
+				return false;
+			});
+			$('.house_type a').click(function(event) {
+				$('.search_city .pick_type').children('span').html($(this).html());
+			});
+			$('.list_city .more').click(function(event) {
+				$('.list_city .city').show();
+				return false;
+			});
+			$('.list_city ul li').click(function(event) {
+				if($(this).index()<10){
+					$(this).addClass('city_cur').siblings('li').removeClass('city_cur');
+					$('.city_item').eq($(this).index()).show().siblings('.city_item').hide();
+				}
+			});
+			$('.list_city .city li').click(function(event) {
+				$(this).addClass('click_cur').siblings('li').removeClass('click_cur');
+				$('.list_city>ul li').eq($(this).index()).addClass('city_cur').siblings('li').removeClass('city_cur');
+			});
+			$('.list_city .city a').click(function(event) {
+				$('.list_city .more').children('span').html($(this).html());
+			});
+			$('body,html').click(function(event) {
+				$('.search_city .city').hide();
+				$('.list_city .city').hide();
+				$('.house_type').hide();
+			});
+			$('.more_house').click(function(event) {
+				if(city_num<10){
+					$('.city_item').eq(city_num).show();
+				}
+				city_num++;
+			});
+			$(".footer-middle .group .hide").click(function(event) {
+				$(this).parent().children('.hideul').toggle();
+				$(this).toggleClass('changeicon');
+			});
+			$('.list-fix li').hover(function() {
+				if($(this).index()==0){
+					$('.list-fix .QR_code').show();
+				}
+				$(this).children('span').html($(this).children('.li-icon').attr('alt'));
+				$(this).children('span').show();
+			}, function() {
+				$(this).children('span').hide();
+				$('.list-fix .QR_code').hide();
+			});
+			t=setTimeout(function(){
+				$('.active').animate({'left':'-100%'},1000);
+				setTimeout(function(){
+					$('.discount').animate({'left':'0px'});
+					$('.active').hide();
+				},1100);
+			},10000)
+			$('.discount').click(function(event) {
+				$('.discount').animate({'left':'-125px'});
+				$('.active').show();
+				setTimeout(function(){
+					$('.active').animate({'left':'0%'},1000);
+				},1100);
+			});
+			$('.active a').click(function(event) {
+				clearInterval(t);
+				$('.active').animate({'left':'-100%'},1000);
+				setTimeout(function(){
+					$('.discount').animate({'left':'0px'});
+					$('.active').hide();
+				},1100);
+			});
+			var dateRange1 = new pickerDateRange('date1', { 
+			  isTodayValid: true, //今天是否可选 
+			  startDate: '2017-06-04', 
+			  endDate: '2017-06-07', 
+			  startToday: false, //开始时间为今天 
+			  stopToday: true, //结束时间为今天 
+			  needCompare: false, 
+			  defaultText: ' 至 ', 
+			  autoSubmit: true, 
+			  inputTrigger: 'input_trigger1', 
+			  theme: 'ta', 
+			}); 
+		</script>
+	</body>
+</html>

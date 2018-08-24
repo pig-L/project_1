@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/*
+QQ:1159037199
+*/
+html {
+	font-family: "微软雅黑";
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	box-sizing: border-box;
+}
+
+a:active,
+a:hover {
+	outline: 0
+}
+a:hover {
+	color: #006699;
+}
+img {
+	border: none;
+	vertical-align: middle;
+	-ms-interpolation-mode: bicubic
+}
+ul,
+ol {
+	list-style: none outside none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.carrousel-main{
+	position: relative;
+	width:1200px;
+	height:450px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top:20px
+
+}
+.carrousel-main .carrousel-list{
+	width:inherit;
+	height:inherit;
+}
+.carrousel-main .carrousel-list a,.carrousel-main .carrousel-list a img{
+	display: block;
+	width:inherit;
+	height:inherit;
+}
+.carrousel-btn{
+	position: absolute;
+	display:inline-block;
+	top:0px;
+	width:40px;
+	height:450px;
+	cursor: pointer;
+	z-index: 10;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+/*左右按钮*/
+.carrousel-btn-pre{
+	left:0px;
+	background-image: url('../images/btnleft.png');
+}
+.carrousel-btn-next{
+	right:0px;
+	background-image: url('../images/btnright.png');
+}
+/*列表*/
+.carrousel-main .carrousel-list .carrousel-item{
+	position: absolute;
+	top:0px;
+	left: 0px;
+}

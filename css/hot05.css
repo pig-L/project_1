@@ -1,0 +1,28 @@
+/*
+* @Author: admin
+* @Date:   2018-06-25 11:29:01
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-06-28 22:07:39
+*/
+nav ul li{
+	float: left;
+	font-size: 18px;
+	font-family: '黑体';
+	margin: 0 53px;
+	cursor: pointer;
+}
+header{
+	height: 40px;
+}
+nav{
+	width: 100%;
+	background:#fff;
+}
+.hot05_fixed{
+	position: fixed;
+	top: 0;
+	z-index: 3;
+}
+nav ul .hotfont{
+	color: #ff6600;
+}
